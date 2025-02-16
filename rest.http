@@ -1,0 +1,29 @@
+### Get Method
+GET http://localhost:8000/api/v1/users
+
+### Post Method
+POST http://localhost:8000/api/v1/users
+Content-Type: application/json
+
+{
+    "task": "Engineer",
+    "hr": 10,
+    "type":"bad"
+    
+}
+
+### Patch Method
+PATCH http://localhost:8000/api/v1/users/
+Content-Type: application/json 
+
+{
+    "_id": "67b18a49b723f8ec31d9c798",
+    "address": "Adamghat",
+    "district": "Dhading"
+
+}
+
+### Delete Method
+DELETE http://localhost:8000/api/v1/users/67b18a49b723f8ec31d9c798
+
+
